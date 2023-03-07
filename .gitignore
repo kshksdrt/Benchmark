@@ -1,0 +1,46 @@
+# From .NET Core 3.0 you can use the command: `dotnet new gitignore` to generate a customizable .gitignore file
+
+*.swp
+*.*~
+project.lock.json
+.DS_Store
+*.pyc
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+build/
+bld/
+[Bb]in/
+[Oo]bj/
+msbuild.log
+msbuild.err
+msbuild.wrn
+BenchmarkDotNet.Artifacts/MyBenchmarks.LoopALot-20230306-170602.log
+BenchmarkDotNet.Artifacts/MyBenchmarks.LoopALot-20230306-170843.log
+BenchmarkDotNet.Artifacts/MyBenchmarks.LoopALot-20230306-171104.log
+BenchmarkDotNet.Artifacts/MyBenchmarks.LoopALot-20230306-172536.log
+BenchmarkDotNet.Artifacts/MyBenchmarks.LoopALot-20230306-172707.log
+BenchmarkDotNet.Artifacts/MyBenchmarks.LoopALot-20230306-174355.log
+BenchmarkDotNet.Artifacts/MyBenchmarks.LoopALot-20230306-174521.log
+BenchmarkDotNet.Artifacts/MyBenchmarks.LoopALot-20230306-174744.log
+BenchmarkDotNet.Artifacts/MyBenchmarks.Md5VsSha256-20230306-164716.log
+BenchmarkDotNet.Artifacts/MyBenchmarks.Md5VsSha256-20230306-164740.log
+BenchmarkDotNet.Artifacts/MyBenchmarks.Md5VsSha256-20230306-165125.log
+BenchmarkDotNet.Artifacts/MyBenchmarks.Md5VsSha256-20230306-165624.log
+BenchmarkDotNet.Artifacts/results/MyBenchmarks.LoopALot-report-github.md
+BenchmarkDotNet.Artifacts/results/MyBenchmarks.LoopALot-report.csv
+BenchmarkDotNet.Artifacts/results/MyBenchmarks.LoopALot-report.html
+BenchmarkDotNet.Artifacts/results/MyBenchmarks.Md5VsSha256-report-github.md
+BenchmarkDotNet.Artifacts/results/MyBenchmarks.Md5VsSha256-report.csv
+BenchmarkDotNet.Artifacts/results/MyBenchmarks.Md5VsSha256-report.html
